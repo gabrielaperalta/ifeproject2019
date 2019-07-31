@@ -25,10 +25,14 @@ from flask import render_template, request, redirect
 @app.route('/')
 @app.route('/index')
 
+
 def index():
     return render_template('index.html')
 
-
+@app.route('/shop')
+ 
+def shop():
+    return render_template('shop.html')
 # CONNECT TO DB, ADD DATA
 
 # @app.route('/add')
