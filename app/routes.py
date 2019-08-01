@@ -33,6 +33,20 @@ def index():
  
 def shop():
     return render_template('shop.html')
+    
+
+@app.route('/signup')
+
+def signup():
+    return render_template('signup.html')
+    
+# SIGN-UP:
+
+@app.route('/signup', methods = ['POST', 'GET'])
+def usersignup():
+    return redirect("shop.html")
+
+
 # CONNECT TO DB, ADD DATA
 
 # @app.route('/add')
