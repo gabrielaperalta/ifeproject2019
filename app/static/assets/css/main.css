@@ -3843,7 +3843,7 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		text-align: center;
+		text-align: center;}
 	
 
 		#main > header h2 {
@@ -4021,6 +4021,8 @@ input, select, textarea {
 	.clothes-pic{
 	height: 200px;
 	width: 30%;
+
+	
 }
 #polo{
 	height: 150px;
